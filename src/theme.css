@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+@theme {
+  /* Fonts */
+  --font-inter: 'Inter', sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+
+  /* Couleurs émotions */
+
+    /* Couleurs neutres — pour home, login, register */
+  --color-dark:          #0F1117;   /* fond principal */
+  --color-dark-card:     #1A1D27;   /* fond des cartes */
+  --color-dark-border:   #2A2D3A;   /* bordures */
+  --color-white:         #FFFFFF;   /* texte principal */
+  --color-muted:         #8B8FA8;   /* texte secondaire */
+  --color-subtle:        #3A3D4A;   /* texte très discret */
+  --color-emotion-triste: #1e1b4b;
+  --color-emotion-triste-accent: #4A4A8A;
+  --color-emotion-triste-text:#C8C8E8;
+
+ --color-emotion-anxieux: #1a2744;
+  --color-emotion-anxieux-accent: #2E7DA6;
+  --color-emotion-anxieux-text:#B0D4E8;
+
+  --color-emotion-brise: #2d1b3d;
+  --color-emotion-brise-accent: #7A3D8F;
+  --color-emotion-brise-text: #D4B0E8;
+
+ --color-emotion-colere: #2d1a0e;
+  --color-emotion-colere-accent:  #C0502A;
+  --color-emotion-colere-text: #D97A58;
+
+--color-emotion-perdu: #0f2417;
+  --color-emotion-perdu-accent:  #4A7A3A;
+  --color-emotion-perdu-text: #B8D4A8;
+
+--color-emotion-reconstruction: #0f2830;
+  --color-emotion-reconstruction-accent:#3A8F8F;
+  --color-emotion-reconstruction-text:  #6ABEBE;
+}
