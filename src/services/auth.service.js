@@ -1,13 +1,13 @@
-import axios from 'axios'
+import api from './api' 
 
 const authService = {
   register: async (userData) => {
-    const response = await axios.post('http://localhost:3000/api/auth/register', userData)
+    const response = await api.post('/api/auth/register', userData)
     return response.data
   },
 
   login: async (credentials) => {
-    const response = await axios.post('http://localhost:3000/api/auth/login', credentials)
+    const response = await api.post('/api/auth/login', credentials)
     return response.data
   }
 }
