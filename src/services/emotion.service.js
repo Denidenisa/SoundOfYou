@@ -1,13 +1,12 @@
-import axios from 'axios'
+import api from './api'
 
 const emotionService = {
   getAll: async () => {
-    const response = await axios.get('http://localhost:3000/api/emotions')
+    const response = await api.get('/api/emotions')
     return response.data
   },
-
   getById: async (id) => {
-    const response = await axios.get(`http://localhost:3000/api/emotions/${id}`)
+    const response = await api.get(`/api/emotions/${id}`)
     return response.data
   }
 }
