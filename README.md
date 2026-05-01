@@ -1,16 +1,79 @@
-# React + Vite
+# 🎵 Sound of You
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Une chanson pour chaque émotion. Parce que la musique guérit ce que les mots ne peuvent pas dire.
 
-Currently, two official plugins are available:
+🔗 **Live :** [sound-of-you-delta.vercel.app](https://sound-of-you-delta.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 💭 C'est quoi ?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Sound of You** est un espace personnel où tu associes des **émotions** à des **chansons** — et tu racontes, en quelques mots, comment cette musique t'a aidé à traverser ce que tu ressentais.
 
-## Expanding the ESLint configuration
+Joie, anxieux, colère, brisé, perdu... chaque émotion mérite sa bande-son.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎭 Comment ça marche ?
+
+1. **Choisis une émotion** parmi celles proposées
+2. **Recherche une chanson** via la barre de recherche Deezer
+3. **Écris une description** — comment ce morceau t'a aidé, ce qu'il représente pour toi
+4. **Sauvegarde** et construis ta carte émotionnelle musicale
+
+---
+
+## ✨ Features
+
+- 🎨 Interface organisée par émotions
+- 🔍 Recherche de musique en temps réel via l'API Deezer
+- ✍️ Ajout d'une description personnelle pour chaque morceau
+
+
+---
+
+## 🚀 Tech Stack
+
+| Outil | Rôle |
+|---|---|
+| [React](https://react.dev/) | UI framework |
+| [Vite](https://vitejs.dev/) | Build tool & dev server |
+| [Tailwind CSS](https://tailwindcss.com/) | Styling |
+| [Deezer API](https://developers.deezer.com/) | Recherche musicale & previews |
+| [Vercel](https://vercel.com/) | Déploiement |
+
+---
+
+## 📦 Installation
+
+```bash
+# Cloner le projet
+git clone https://github.com/your-username/sound-of-you.git
+cd sound-of-you
+
+# Installer les dépendances
+npm install
+
+# Lancer en dev
+npm run dev
+```
+
+L'app tourne sur `http://localhost:5173`.
+
+Le proxy Vite gère les appels à Deezer sans erreurs CORS en développement :
+- `/deezer` → `https://api.deezer.com`
+- `/deezer-img` → `https://cdn-images.deezer.com`
+
+---
+
+## 🌐 Déploiement
+
+Déployé sur **Vercel** — le proxy Vite étant uniquement actif en dev, les appels API en production passent par des routes serverless Vercel.
+
+---
+
+
+
+## 📄 Licence
+
+MIT © [Denisa](https://github.com/Denidenisa)
