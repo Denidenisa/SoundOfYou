@@ -18,7 +18,7 @@ Joie, anxieux, colère, brisé, perdu... chaque émotion mérite sa bande-son.
 
 1. **Choisis une émotion** parmi celles proposées
 2. **Recherche une chanson** via la barre de recherche Deezer
-3. **Écris une description** — comment ce morceau t'a aidé, ce qu'il représente pour toi
+3. **Écris une description**  comment ce morceau t'a aidé, ce qu'il représente pour toi
 4. **Sauvegarde** et construis ta carte émotionnelle musicale
 
 ---
@@ -66,11 +66,7 @@ Le proxy Vite gère les appels à Deezer sans erreurs CORS en développement :
 
 ---
 
-## 🌐 Déploiement
 
-Déployé sur **Vercel** — le proxy Vite étant uniquement actif en dev, les appels API en production passent par des routes serverless Vercel.
-
----
 
 
 
