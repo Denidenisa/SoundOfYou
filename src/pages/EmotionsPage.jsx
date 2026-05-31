@@ -48,7 +48,7 @@ export const EmotionsPage = () => {
           </p>
         ) : (
           songs.map((song) => (
-            <SongCard key={song._id} song={song} />
+           <SongCard key={song._id} song={song} emotionName={emotion.name} emotionColor={emotion.color} />
           ))
         )}
       </section>
