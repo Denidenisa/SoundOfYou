@@ -72,4 +72,4 @@ Le proxy Vite gère les appels à Deezer sans erreurs CORS en développement :
 
 ## 📄 Licence
 
-MIT © [Denisa](https://github.com/Denidenisa)
+MIT © [Denisa](https://github.com/Denidenisa) — [Backend](https://github.com/Denidenisa/BackendSoundOfYou)
