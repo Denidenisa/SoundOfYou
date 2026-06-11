@@ -8,7 +8,9 @@ export const EmotionCard = ({ emotion }) => {
     'En colère': 'Un orage lointain qui ne demande qu\'à s\'apaiser sous les étoiles.',
     'Perdu': 'Parfois, il faut s\'égarer dans l\'espace pour trouver sa propre constellation.',
     'En reconstruction': 'On ne plante pas de baobabs, on cultive des roses dans le cosmos.',
-    'Joyeux': 'Même les étoiles dansent quand le cœur chante.'
+    'Joyeux': 'Même les étoiles dansent quand le cœur chante.',
+    'Amoureux': 'Le cœur devient une étoile filante quand il reconnaît l\'autre.',
+    'Nostalgique': 'Certains souvenirs brillent plus fort que les étoiles présentes.',
   }
 
   const icons = {
@@ -19,6 +21,8 @@ export const EmotionCard = ({ emotion }) => {
     'Perdu': '/images/confused-svgrepo-com.svg',
     'En reconstruction': '/images/grow-growth-plant-svgrepo-com.svg',
     'Joyeux': '/images/happy.svg',
+    'Amoureux': '/images/love.svg',
+    'Nostalgique': '/images/tv-television-svgrepo-com.svg',
   }
 
   return (

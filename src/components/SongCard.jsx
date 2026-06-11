@@ -30,7 +30,7 @@ export const SongCard = ({ song, emotionName, emotionColor }) => {
           <div className="flex flex-col gap-1 min-w-0">
             <h3 className="text-white font-medium truncate">{song.title}</h3>
             <p className="text-muted text-sm">{song.artist}</p>
-            <p className="text-subtle text-xs italic font-playfair line-clamp-2">{song.story}</p>
+            <p className="text-muted text-xs italic font-playfair line-clamp-2">{song.story}</p>
           </div>
         </Link>
 

@@ -45,4 +45,18 @@
 --color-emotion-reconstruction: #0f2830;
   --color-emotion-reconstruction-accent:#3A8F8F;
   --color-emotion-reconstruction-text:  #6ABEBE;
+
+
+  --color-emotion-amoureux: #6b2d45;
+--color-emotion-amoureux-accent: #C05080;
+--color-emotion-amoureux-text: #F0B0CC;
+
+
+
+--color-emotion-nostalgique: #2a1f0e;
+--color-emotion-nostalgique-accent: #A07030;
+--color-emotion-nostalgique-text: #D4B080;
+
+
+
 }
