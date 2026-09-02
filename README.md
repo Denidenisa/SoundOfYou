@@ -8,7 +8,7 @@
 
 ## 💭 C'est quoi ?
 
-**Sound of You** est un espace personnel où tu associes des **émotions** à des **chansons** — et tu racontes, en quelques mots, comment cette musique t'a aidé à traverser ce que tu ressentais.
+**Sound of You** est un espace personnel où tu associes des **émotions** à des **chansons**  et tu racontes, en quelques mots, comment cette musique t'a aidé à traverser ce que tu ressentais.
 
 Joie, anxieux, colère, brisé, perdu... chaque émotion mérite sa bande-son.
 
